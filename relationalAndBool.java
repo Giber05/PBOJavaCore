@@ -30,6 +30,9 @@ public class relationalAndBool
         {
              System.out.println("nilainya terbesar adalah "+nilai3);
         }
+        
+        String s = (nilai3<10)?"life" : (nilai3>20)?"die" : "gone";
+        System.out.println(s);
     }
     
 }
