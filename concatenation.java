@@ -22,8 +22,10 @@ public class concatenation
         String rating = "PG"+age;
         System.out.println("The rating is "+rating);
         
-        String all = String.join(" / ", "S", "M", "L", "XL");
- // all is the string "S / M / L / XL"
+        String all = String.join(" / ", "S", "M", "L", "XL");// all is the string "S / M / L / XL"
+        System.out.println(all);
+        
+        all = String.join("-->", "1","2","3","4");
         System.out.println(all);
     }
 }
