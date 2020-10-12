@@ -18,6 +18,18 @@ public class substrings
         
         System.out.println(sentence);
         System.out.println(word);
+        
+        
+        String a="Hello";
+        String w = a.substring(0, 3);
+        System.out.println(a);
+        w = w +"p!";
+        System.out.println(w);
+        
+        String s="Hello";
+        System.out.println(s);
+        s = s.substring(0, 3) +"p!";
+        System.out.println(s);
     }
     
 }
